@@ -23,7 +23,7 @@ public class ReviewController {
 
         if(isReviewSaved) {
 
-            return new ResponseEntity<>("R eview has been successfully added", HttpStatus.CREATED);
+            return new ResponseEntity<>("Review has been successfully added", HttpStatus.CREATED);
         }
         else {
             return new ResponseEntity<>("Review has been successfully added", HttpStatus.NOT_FOUND);
